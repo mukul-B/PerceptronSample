@@ -21,7 +21,7 @@ def perceptron_train(X, Y):
 
 
 def perceptron_test(X, Y, w, b):
-    print(X, Y, w, b)
+    #print(X, Y, w, b)
     accuracy = 0
     sample_size=len(Y)
     for i in range(sample_size):
